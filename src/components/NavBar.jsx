@@ -41,7 +41,9 @@ export const NavBar = () => {
             </a>
              {/* Botón para abrir la imagen "Sistema implementado" */}
             <button onClick={handleShowSistemaImplementado}>Sistema implementado</button>
-            <button onClick={handleDownloadSourceCode}>Descargar código fuente</button>
+            <a href="https://github.com/dianarojo/sitio-web-cecmex.git" target="_blank" rel="noopener noreferrer">
+              <button>Descargar/clonar código fuente</button>
+            </a>
             {/* Enlace directo al PDF */}
             <a href="/files/U4-Actividades-realizadas.pdf" target="_blank" rel="noopener noreferrer" onClick={handleCloseMenu}>
               <button>Reporte de modificaciones</button>
